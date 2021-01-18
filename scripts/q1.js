@@ -1,5 +1,6 @@
-let num1= prompt("enter first number");
-let num2= prompt("enter second number");
+"use strict"
+let num1= Number(prompt("enter first number"));
+let num2= Number(prompt("enter second number"));
 
 if(num1>num2){
     alert(num1 + " is bigger");
@@ -8,4 +9,4 @@ if(num1>num2){
 else if(num2>num1){
     alert(num2 + " is bigger");
 }
-else alert("the numbers are equal")
+else alert("the numbers are equal");
